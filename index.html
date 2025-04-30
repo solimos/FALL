@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Did We Fall</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #b5ff00;
+            color: #000;
+            font-family: 'Impact', 'Arial Black', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            padding: 40px 20px;
+            text-align: left;
+            position: relative;
+        }
+
+        .headline {
+            font-size: 70px;
+            line-height: 1;
+            transform: rotate(-5deg);
+            color: #b5ff00;
+            background: #000;
+            padding: 10px 20px;
+            display: inline-block;
+            box-shadow: 8px 8px 0px #000;
+            margin-bottom: 40px;
+        }
+
+        .subline {
+            font-size: 28px;
+            font-style: italic;
+            margin-bottom: 30px;
+            color: #111;
+        }
+
+        .quote-box {
+            background-color: #111;
+            color: #b5ff00;
+            font-family: 'Courier New', monospace;
+            padding: 30px 40px;
+            border-left: 8px solid #b5ff00;
+            box-shadow: inset 0 0 0 3px #000;
+            max-width: 100%;
+            margin-bottom: 50px;
+            line-height: 1.8;
+            animation: fadeIn 1s ease-out both;
+        }
+
+        .quote-line {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 18px;
+        }
+
+        .quote-line .prefix {
+            color: #6aff00;
+            margin-right: 12px;
+            font-weight: bold;
+        }
+
+        .quote-line .text {
+            flex: 1;
+        }
+
+        .cta {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 16px 36px;
+            background: #000;
+            color: #b5ff00;
+            border: 3px solid #000;
+            border-radius: 0;
+            text-decoration: none;
+            box-shadow: 4px 4px 0 #000;
+            transition: all 0.3s ease;
+        }
+
+        .cta:hover {
+            background: #b5ff00;
+            color: #000;
+            border-color: #000;
+            box-shadow: 8px 8px 0 #000;
+            transform: scale(1.05);
+        }
+
+        .watermark {
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+            font-size: 12px;
+            color: #222;
+            font-family: monospace;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="headline">Did We Fall</div>
+
+        <div class="subline">☠️ The candles lied. But we still believe.</div>
+
+        <div class="quote-box">
+            <div class="quote-line">
+                <span class="prefix">&gt;</span>
+                <span class="text">They called it a dip... but the candles disappeared. Completely.</span>
+            </div>
+            <div class="quote-line">
+                <span class="prefix">&gt;</span>
+                <span class="text">Dad leveraged the house for a meme coin. He never looked back.</span>
+            </div>
+            <div class="quote-line">
+                <span class="prefix">&gt;</span>
+                <span class="text">I watched the chart fall like it owed gravity money.</span>
+            </div>
+            <div class="quote-line">
+                <span class="prefix">&gt;</span>
+                <span class="text">My wallet? Just vibes and failed screenshots of ATH.</span>
+            </div>
+            <div class="quote-line">
+                <span class="prefix">&gt;</span>
+                <span class="text">They laughed when I said “100x.” Now they just cry with me.</span>
+            </div>
+        </div>
+
+        <a class="cta" href="https://pump.fun" target="_blank" rel="noopener">Fall Further at Pump.fun</a>
+
+        <div class="watermark">powered by zero liquidity</div>
+    </div>
+</body>
+
+</html>
